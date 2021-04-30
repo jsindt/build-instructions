@@ -1,4 +1,4 @@
-Instructions for compiling FEniCS 2019.1.0 for ARCHER2
+opt/cray/pe/python/3.8.5.0/lib/python3.8/site-packages/pip/_internal/operations/install/legacy.py", lineInstructions for compiling FEniCS 2019.1.0 for ARCHER2
 ======================================================
 
 These instructions are for compiling FEniCS 2019.1.0 on 
@@ -172,7 +172,7 @@ To download, configure, and compile MSHR, run:
   make -j 8
   make -j 8 install
   cd ../python
-  pip -v install ./
+  pip -v install --user ./
 ```
 
 At this point, pip installation fails because it can't find boost libraries... Further work needed.
