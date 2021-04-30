@@ -171,6 +171,8 @@ To download, configure, and compile MSHR, run:
     -DCMAKE_INSTALL_PREFIX=$(pwd) ../
   make -j 8
   make -j 8 install
+  cd ../python
+  pip -v install .
 ```
 
 At this point, pip installation fails because it can't find boost libraries... Further work needed.
